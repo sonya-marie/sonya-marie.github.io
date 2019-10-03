@@ -3,6 +3,15 @@
 body {
 	font-family: 'Alfa Slab One', cursive;
 }
+a{
+	color:#824cbb;
+}
+a:hover {
+	color: #482a68;
+}
+a:visited {
+	color: #bd99e2;
+}
 .chocolate
 	{color: purple;
 		text-align: center}
