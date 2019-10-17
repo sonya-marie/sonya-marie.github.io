@@ -1,23 +1,116 @@
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap&subset=latin-ext');
 
-body {
-	font-family: 'Alfa Slab One', cursive;
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Lekton:400,400i,700|Rokkitt:300,400,700&display=swap');
+
+
+
+h5{
+	color: #2D3B9E;
+	width: 100%;
+	padding:20px;
 }
+
 a{
+	padding-left: 10px;
 	color:#824cbb;
+	font-family: 'Lekton', sans-serif;
 }
 a:hover {
 	color: #482a68;
+	font-family: 'Lekton', sans-serif;;
 }
 a:visited {
-	color: #bd99e2;
+	color: #CACACA;
+	font-family: 'Lekton', sans-serif;
 }
-.chocolate
-	{color: purple;
-		text-align: center}
-.caramel
- 	{color: brown;}
- 	font-size: 50px;
-#vanilla
-	{color: rgb(255,105,180);
-		text-align: center}
+#img1 {
+	height: 500px;
+	width: 450px;
+	float: right;
+    padding-left: 20px;
+}
+
+figcaption{
+	float: right;
+	padding: 5px;
+	font-family: 'Lekton', sans-serif;
+}
+
+#oak {
+	color: #2D3B9E;
+	font-family: 'Rokkitt', serif;
+	font-size: 20px;
+	width: 70%;
+	padding-left:10px;
+}
+#intro{
+	color: #800080;
+	font-family: 'Rokkitt', serif;
+	font-size: 25px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 100%;
+}
+
+.titles{
+	font-family: 'Alfa Slab One', cursive;
+	width: 70%;
+	padding:10px;
+}
+
+#sonya{ 
+	width: 100%;
+	font-family: 'Alfa Slab One', cursive;
+	text-align: center; 
+	padding:10px;}
+
+.subtitle{
+	width: 70%;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 25px;
+	padding:10px;}
+
+.subtitle_right{
+	width: 100%;
+	float: right;
+	text-align: right;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 25px;
+	padding:10px;
+}
+
+#pubs{
+	width: 70%;
+	float: right;
+	text-align: right;
+	font-family: 'Rokkitt', serif;
+	font-size: 20px;
+	padding:10px;
+	color: #2D3B9E;
+}
+
+
+#published {
+	font-family: 'Alfa Slab One', cursive;
+	width: 100%;
+	text-align: center;
+}
+
+#poetry{
+	text-align: center;
+	width: 40%;
+	color: #800080;
+	font-family: 'Rokkitt', serif;
+	font-size: 20px;
+	border: solid;
+	border-color: #2D3B9E;
+	background-color: #e8f4f8;
+}
+
+#cover{
+	float: left;
+	padding: 20px;
+	width: 500px;
+	height: 500px;
+}
