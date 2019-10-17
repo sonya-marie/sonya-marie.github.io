@@ -35,6 +35,10 @@ ul{
 	float: left;
   	width: 70%;
 }
+
+ol{
+	float: left
+}
 #figcap{
 	color: #A04000;
 	font-family: 'Gothic A1', sans-serif;
@@ -51,6 +55,11 @@ ul{
 	color: #6E2C00;
 	float: left;
   	width: 70%;
+}
+
+#contents_title{
+	text-align: center;
+	font-family: 'Gothic A1', sans-serif;
 }
 #wwf{
 	font-family: 'Archivo Black', sans-serif;
@@ -86,12 +95,12 @@ ul{
 }
 	#toc {
     background-color: #FEF9E7;
-    border: 10px dotted #aaa;
+    border: dotted;
+    border-color: #C0392B; 
     font-family: 'Gothic A1', sans-serif;
-    margin-bottom: 10px;
     padding: 20px;
     width: 20%;
-    float: left;
+    float: right;
 }
 
 
